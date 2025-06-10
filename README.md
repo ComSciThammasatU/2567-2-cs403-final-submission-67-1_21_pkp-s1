@@ -18,11 +18,11 @@ STAYDOG-PROJECT/
 1. Prisma/
 - Schema.prisma # Schema และการตั้งค่า Prisma
 - seed.js # เตรียมข้อมูลเพื่อนำมาแสดงหน้าเว็ป
-2. Public/
-2.1 upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด <br/>
+2. Public/<br/>
+2.1 upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด
 - dogimages # เก็บรูปภาพสุนัข
-- images # เก็บโปรไฟล์ผู้ใช้งาน
-3.1 app/ <br/>
+- images # เก็บโปรไฟล์ผู้ใช้งาน<br/>
+3.1 app/ 
 - page.js # หน้าแรกที่ยังไม่ได้ login
 - layout.js # กำหนด css
 - Home/ # หน้าแรกที่มีการ login
@@ -40,8 +40,8 @@ STAYDOG-PROJECT/
 - AllShelterDog/ # หน้าดูสุนัขทั้งหมดที่สถานสงเคราะห์เพิ่มเข้ามา
 - DogMenagement/ # หน้าดูคำขอเลี้ยงทั้งหมดที่ผู้ใช้ส่งมา
 - requestDetail/[id]/ # หน้าดูรายละเอียดของคำขออันนั้น
-- StatusTracking/[id]/ # หน้าติดตามสถานะการรับเลี้ยงสุนัขของผู้ใช้งาน
-3.2 api/auth <br/>
+- StatusTracking/[id]/ # หน้าติดตามสถานะการรับเลี้ยงสุนัขของผู้ใช้งาน<br/>
+3.2 api/auth
 - [...nextauth]/ # Api สำหรับ login
 - register-user/ # Api สำหรับ register ของ user
 - register-shelter/ # Api สำหรับ register ของ 
@@ -56,8 +56,8 @@ STAYDOG-PROJECT/
 - singleRequest/[id]/ # Api สำหรับดูรายละเอียดคำขอรับเลี้ยงของสุนัขตัวนั้น
 - status/[id]/ # Api สำหรับอัพเดท status การรับเลี้ยงสุนัขให้กับผู้ใช้งาน
 - trackingDog/[id]/ # Api สำหรับติดตามสุนัขตัวนั้นที่ถูกรับเลี้ยง
-- userdetail/[id]/ # Api สำหรับดูโปรไฟล์ของผู้ใช้งานคนนั้น
-3.3 components <br/>
+- userdetail/[id]/ # Api สำหรับดูโปรไฟล์ของผู้ใช้งานคนนั้น<br/>
+3.3 components
 - Navbar.jsx # แถบบนสุดของเว็ปเซต์ทุกหน้า
 - HeroBanner.jsx # ป้ายโฆษณาในหน้าแรกของเว็บไซต์
 - SessionProvider.jsx #  ให้ข้อมูล session (การล็อกอินของผู้ใช้) แก่ทุก component ภายในแอป
