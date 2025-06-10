@@ -18,11 +18,11 @@ STAYDOG-PROJECT/
 1. Prisma/
 - Schema.prisma # Schema และการตั้งค่า Prisma
 - seed.js # เตรียมข้อมูลเพื่อนำมาแสดงหน้าเว็ป
-2 Public/
-2.1 upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด
+2. Public/
+2.1. upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด
 - dogimages # เก็บรูปภาพสุนัข
 - images # เก็บโปรไฟล์ผู้ใช้งาน
-3.1 app/
+3.1. app/
 - page.js # หน้าแรกที่ยังไม่ได้ login
 - layout.js # กำหนด css
 - Home/ # หน้าแรกที่มีการ login
@@ -41,7 +41,7 @@ STAYDOG-PROJECT/
 - DogMenagement/ # หน้าดูคำขอเลี้ยงทั้งหมดที่ผู้ใช้ส่งมา
 - requestDetail/[id]/ # หน้าดูรายละเอียดของคำขออันนั้น
 - StatusTracking/[id]/ # หน้าติดตามสถานะการรับเลี้ยงสุนัขของผู้ใช้งาน
-3.2 api/auth
+3.2. api/auth
 - [...nextauth]/ # Api สำหรับ login
 - register-user/ # Api สำหรับ register ของ user
 - register-shelter/ # Api สำหรับ register ของ 
@@ -57,16 +57,16 @@ STAYDOG-PROJECT/
 - status/[id]/ # Api สำหรับอัพเดท status การรับเลี้ยงสุนัขให้กับผู้ใช้งาน
 - trackingDog/[id]/ # Api สำหรับติดตามสุนัขตัวนั้นที่ถูกรับเลี้ยง
 - userdetail/[id]/ # Api สำหรับดูโปรไฟล์ของผู้ใช้งานคนนั้น
-3.3 components
+3.3. components
 - Navbar.jsx # แถบบนสุดของเว็ปเซต์ทุกหน้า
 - HeroBanner.jsx # ป้ายโฆษณาในหน้าแรกของเว็บไซต์
 - SessionProvider.jsx #  ให้ข้อมูล session (การล็อกอินของผู้ใช้) แก่ทุก component ภายในแอป
 - Footer.jsx # แถบด้านล่างสุดของเว็ปเซต์ทุกหน้า(ไม่ได้นำมาใช้งาน)
-4 .env # ตัวแปรสิ่งแวดล้อม
-5 .gitignore
-6 package.json
-7 tailwind.config.js # Tailwind config
-8 next.config.js 
+4. .env # ตัวแปรสิ่งแวดล้อม
+5. .gitignore
+6. package.json
+7. tailwind.config.js # Tailwind config
+8. next.config.js 
 # ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมทํางานได้
 
 1. Node.js
