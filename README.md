@@ -89,11 +89,10 @@ STAYDOG-PROJECT/
 # วิธีการติดตั้งโปรแกรมและวิธีการใช้งานโปรแกรม
 
 **ต้องมี Git	สำหรับโคลนโปรเจกต์จาก GitHub** 
-# 1. โคลนโปรเจกต์จาก GitHub
+1. โคลนโปรเจกต์จาก GitHub
 git clone https://github.com/yourusername/staydog-project.git
 cd staydog-project
-
-# 2. ติดตั้ง dependencies ที่จำเป็น
+2. ติดตั้ง dependencies ที่จำเป็น
 npm install
 
 **ตั้งค่า .env ไฟล์สำหรับฐานข้อมูล** 
