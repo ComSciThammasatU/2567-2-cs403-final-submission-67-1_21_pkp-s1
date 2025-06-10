@@ -98,11 +98,11 @@ npm install
 **ตั้งค่า .env ไฟล์สำหรับฐานข้อมูล** 
 1. สร้างไฟล์ .env ใน root directory
 2. ใส่ค่าเชื่อมต่อฐานข้อมูล PostgreSQL แบบนี้:
-DATABASE_URL="postgresql://postgres:mypassword@localhost:5432/postgres?schema=public"
-NEXTAUTH_SECRET="B4rsJTUbv5TUmIKCE/TnJa6pP1JyuMp+3bwqwmavIm5bbnoHEX27Tj5lcMs="
-3.สร้างตารางในฐานข้อมูลโดยรันคำสั่ง:
-npx prisma generate
-npx prisma migrate dev --name init
+- DATABASE_URL="postgresql://postgres:mypassword@localhost:5432/postgres?schema=public"
+- NEXTAUTH_SECRET="B4rsJTUbv5TUmIKCE/TnJa6pP1JyuMp+3bwqwmavIm5bbnoHEX27Tj5lcMs="
+3. สร้างตารางในฐานข้อมูลโดยรันคำสั่ง:
+- npx prisma generate
+- npx prisma migrate dev --name init
 
 **เริ่มรันโปรเจกต์** 
 1. รันคำสั่ง npm run dev
