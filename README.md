@@ -20,8 +20,8 @@ STAYDOG-PROJECT/<br/>
 │ ├── seed.js # เตรียมข้อมูลเพื่อนำมาแสดงหน้าเว็ป<br/>
 ├── Public/<br/>
 │ ├── upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด<br/>
-    └── dogimages # เก็บรูปภาพสุนัข<br/>
-    └── images # เก็บโปรไฟล์ผู้ใช้งาน<br/>
+<pre>└── dogimages # เก็บรูปภาพสุนัข<br/>
+<pre>└── images # เก็บโปรไฟล์ผู้ใช้งาน<br/>
 ├── app/<br/>
 │ ├── api/auth<br/>
     └── [...nextauth]/ # Api สำหรับ login<br/>
