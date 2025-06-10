@@ -19,10 +19,10 @@ STAYDOG-PROJECT/
 - Schema.prisma # Schema และการตั้งค่า Prisma
 - seed.js # เตรียมข้อมูลเพื่อนำมาแสดงหน้าเว็ป
 2. Public/
-2.1 upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด /br
+2.1 upload # Folder สำหรับเก็บรูปภาพที่ผู้ใช้อัพโหลด <br/>
 - dogimages # เก็บรูปภาพสุนัข
 - images # เก็บโปรไฟล์ผู้ใช้งาน
-3.1 app/
+3.1 app/ <br/>
 - page.js # หน้าแรกที่ยังไม่ได้ login
 - layout.js # กำหนด css
 - Home/ # หน้าแรกที่มีการ login
@@ -41,7 +41,7 @@ STAYDOG-PROJECT/
 - DogMenagement/ # หน้าดูคำขอเลี้ยงทั้งหมดที่ผู้ใช้ส่งมา
 - requestDetail/[id]/ # หน้าดูรายละเอียดของคำขออันนั้น
 - StatusTracking/[id]/ # หน้าติดตามสถานะการรับเลี้ยงสุนัขของผู้ใช้งาน
-3.2 api/auth
+3.2 api/auth <br/>
 - [...nextauth]/ # Api สำหรับ login
 - register-user/ # Api สำหรับ register ของ user
 - register-shelter/ # Api สำหรับ register ของ 
@@ -57,7 +57,7 @@ STAYDOG-PROJECT/
 - status/[id]/ # Api สำหรับอัพเดท status การรับเลี้ยงสุนัขให้กับผู้ใช้งาน
 - trackingDog/[id]/ # Api สำหรับติดตามสุนัขตัวนั้นที่ถูกรับเลี้ยง
 - userdetail/[id]/ # Api สำหรับดูโปรไฟล์ของผู้ใช้งานคนนั้น
-3.3 components
+3.3 components <br/>
 - Navbar.jsx # แถบบนสุดของเว็ปเซต์ทุกหน้า
 - HeroBanner.jsx # ป้ายโฆษณาในหน้าแรกของเว็บไซต์
 - SessionProvider.jsx #  ให้ข้อมูล session (การล็อกอินของผู้ใช้) แก่ทุก component ภายในแอป
@@ -83,26 +83,31 @@ STAYDOG-PROJECT/
 - ดาวน์โหลดจาก https://www.postgresql.org 
 4. seed
 - seed script สำหรับใส่ข้อมูลเริ่มต้น
-- ใช้คำสั่ง npx prisma db seed
+- ใช้คำสั่ง `npx prisma db seed`
   
 # วิธีการติดตั้งโปรแกรมและวิธีการใช้งานโปรแกรม
 
 **ต้องมี Git	สำหรับโคลนโปรเจกต์จาก GitHub** 
 1. โคลนโปรเจกต์จาก GitHub
+```
 git clone https://github.com/yourusername/staydog-project.git
 cd staydog-project
+```
 2. ติดตั้ง dependencies ที่จำเป็น
-npm install
+`npm install`
 
 **ตั้งค่า .env ไฟล์สำหรับฐานข้อมูล** 
 1. สร้างไฟล์ .env ใน root directory
 2. ใส่ค่าเชื่อมต่อฐานข้อมูล PostgreSQL แบบนี้:
-- DATABASE_URL="postgresql://postgres:mypassword@localhost:5432/postgres?schema=public"
-- NEXTAUTH_SECRET="B4rsJTUbv5TUmIKCE/TnJa6pP1JyuMp+3bwqwmavIm5bbnoHEX27Tj5lcMs="
+```
+ DATABASE_URL="postgresql://postgres:mypassword@localhost:5432/postgres?schema=public"
+ NEXTAUTH_SECRET="B4rsJTUbv5TUmIKCE/TnJa6pP1JyuMp+3bwqwmavIm5bbnoHEX27Tj5lcMs="
+```
 3. สร้างตารางในฐานข้อมูลโดยรันคำสั่ง:
-- npx prisma generate
-- npx prisma migrate dev --name init
-
+```
+npx prisma generate
+npx prisma migrate dev --name init
+```
 **เริ่มรันโปรเจกต์** 
-1. รันคำสั่ง npm run dev
+1. รันคำสั่ง `npm run dev`
 2. แล้วเปิดเว็บเบราว์เซอร์ที่: http://localhost:3000
