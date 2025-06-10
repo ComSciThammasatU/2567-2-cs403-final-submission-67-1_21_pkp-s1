@@ -24,26 +24,26 @@ STAYDOG-PROJECT/<br/>
 &emsp;&emsp;└── images # เก็บโปรไฟล์ผู้ใช้งาน<br/>
 ├── app/<br/>
 │ ├── api/auth<br/>
-    └── [...nextauth]/ # Api สำหรับ login<br/>
-    └── register-user/ # Api สำหรับ register ของ user<br/>
-    └── register-shelter/ # Api สำหรับ register ของ <br/>
-    └── articles/[id]/  # Api สำหรับหน้าบทความ<br/>
-    └── adoptionRequest/ # Api สำหรับคำขอรับเลี้ยงทั้งหมด<br/>
-    └── Adddog/ # Api สำหรับหน้าเพิ่มสุนัข<br/>
-    └── alldog/ # Api สำหรับหน้าดูสุนัขทั้งหมด<br/>
-    └── dogs/[id]/ # Api สำหรับหน้าดูรายละเอียดของสุนัขตัวนั้น<br/>
-    └── questions/ # Api สำหรับดึงคำถามมาแสดง<br/>
-    └── shelterdetail/[id]/ # Api สำหรับดูโปรไฟล์สถานสงเคราะห์นั้นๆ<br/>
-    └── shelterdog/ # Api สำหรับดูสุนัขที่สถานสงเคราะห์เพิ่่มเข้ามาในระบบ<br/>
-    └── singleRequest/[id]/ # Api สำหรับดูรายละเอียดคำขอรับเลี้ยงของสุนัขตัวนั้น<br/>
-        └── status/[id]/ # Api สำหรับอัพเดท status การรับเลี้ยงสุนัขให้กับผู้ใช้งาน<br/>
-    └── trackingDog/[id]/ # Api สำหรับติดตามสุนัขตัวนั้นที่ถูกรับเลี้ยง<br/>
-    └── userdetail/[id]/ # Api สำหรับดูโปรไฟล์ของผู้ใช้งานคนนั้น<br/>
+&emsp;&emsp;└── [...nextauth]/ # Api สำหรับ login<br/>
+&emsp;&emsp;└── register-user/ # Api สำหรับ register ของ user<br/>
+&emsp;&emsp;└── register-shelter/ # Api สำหรับ register ของ <br/>
+&emsp;&emsp;└── articles/[id]/  # Api สำหรับหน้าบทความ<br/>
+&emsp;&emsp;└── adoptionRequest/ # Api สำหรับคำขอรับเลี้ยงทั้งหมด<br/>
+&emsp;&emsp;└── Adddog/ # Api สำหรับหน้าเพิ่มสุนัข<br/>
+&emsp;&emsp;└── alldog/ # Api สำหรับหน้าดูสุนัขทั้งหมด<br/>
+&emsp;&emsp;└── dogs/[id]/ # Api สำหรับหน้าดูรายละเอียดของสุนัขตัวนั้น<br/>
+&emsp;&emsp;└── questions/ # Api สำหรับดึงคำถามมาแสดง<br/>
+&emsp;&emsp;└── shelterdetail/[id]/ # Api สำหรับดูโปรไฟล์สถานสงเคราะห์นั้นๆ<br/>
+ &emsp;&emsp;└── shelterdog/ # Api สำหรับดูสุนัขที่สถานสงเคราะห์เพิ่่มเข้ามาในระบบ<br/>
+&emsp;&emsp;└── singleRequest/[id]/ # Api สำหรับดูรายละเอียดคำขอรับเลี้ยงของสุนัขตัวนั้น<br/>
+&emsp;&emsp;&emsp;└── status/[id]/ # Api สำหรับอัพเดท status การรับเลี้ยงสุนัขให้กับผู้ใช้งาน<br/>
+&emsp;&emsp;└── trackingDog/[id]/ # Api สำหรับติดตามสุนัขตัวนั้นที่ถูกรับเลี้ยง<br/>
+&emsp;&emsp;└── userdetail/[id]/ # Api สำหรับดูโปรไฟล์ของผู้ใช้งานคนนั้น<br/>
 │ ├── components<br/>
-    └── Navbar.jsx # แถบบนสุดของเว็ปเซต์ทุกหน้า<br/>
-    └── HeroBanner.jsx # ป้ายโฆษณาในหน้าแรกของเว็บไซต์<br/>
-    └── SessionProvider.jsx #  ให้ข้อมูล session (การล็อกอินของผู้ใช้) แก่ทุก component ภายในแอป<br/>
-    └── Footer.jsx # แถบด้านล่างสุดของเว็ปเซต์ทุกหน้า(ไม่ได้นำมาใช้งาน)<br/>
+&emsp;&emsp;└── Navbar.jsx # แถบบนสุดของเว็ปเซต์ทุกหน้า<br/>
+&emsp;&emsp;└── HeroBanner.jsx # ป้ายโฆษณาในหน้าแรกของเว็บไซต์<br/>
+ &emsp;&emsp;└── SessionProvider.jsx #  ให้ข้อมูล session (การล็อกอินของผู้ใช้) แก่ทุก component ภายในแอป<br/>
+ &emsp;&emsp;└── Footer.jsx # แถบด้านล่างสุดของเว็ปเซต์ทุกหน้า(ไม่ได้นำมาใช้งาน)<br/>
 │ ├── page.js # หน้าแรกที่ยังไม่ได้ login<br/>
 │ ├── layout.js # กำหนด css<br/>
 │ ├── Home/ # หน้าแรกที่มีการ login<br/>
@@ -60,7 +60,7 @@ STAYDOG-PROJECT/<br/>
 │ ├── AddDogFrom/ # หน้าเพิ่มสุนัขเข้าสู่ระบบของสถานสงเคราะห์<br/>
 │ ├── AllShelterDog/ # หน้าดูสุนัขทั้งหมดที่สถานสงเคราะห์เพิ่มเข้ามา<br/>
 │ ├── DogMenagement/ # หน้าดูคำขอเลี้ยงทั้งหมดที่ผู้ใช้ส่งมา<br/>
-      └── requestDetail/[id]/ # หน้าดูรายละเอียดของคำขออันนั้น<br/>
+&emsp;&emsp;└── requestDetail/[id]/ # หน้าดูรายละเอียดของคำขออันนั้น<br/>
 │ ├── StatusTracking/[id]/ # หน้าติดตามสถานะการรับเลี้ยงสุนัขของผู้ใช้งาน<br/>
 ├── styles/ # ไฟล์ CSS<br/> 
 ├── .env # ตัวแปรสิ่งแวดล้อม<br/>
