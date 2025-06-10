@@ -68,7 +68,7 @@ STAYDOG-PROJECT/<br/>
 ├── package.json<br/>
 ├── tailwind.config.js # Tailwind config<br/>
 ├── next.config.j# ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมทํางานได้<br/>
-
+# ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมผทํางานได้
 1. Node.js
 - ใช้รัน Next.js และติดตั้งแพ็กเกจ npm
 - เวอร์ชันแนะนำ ≥ 18.x
