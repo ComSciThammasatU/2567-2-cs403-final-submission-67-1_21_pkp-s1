@@ -65,7 +65,7 @@ STAYDOG-PROJECT/<br/>
 ├── package.json<br/>
 ├── tailwind.config.js # Tailwind config<br/>
 ├── next.config.j# ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมทํางานได้<br/>
-# ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมผทํางานได้
+# ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมทํางานได้
 1. vscode
 - ใช้ในการเปิดโปรแกรม
 - ดาวน์โหลดจาก https://code.visualstudio.com/download
