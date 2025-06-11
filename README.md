@@ -1,6 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/w8H8oomW)
-**<ins>Note</ins>: Students must update this `README.md` file to be an installation manual or a README file for their own CS403 projects.**
-
 **รหัสโครงงาน:**  67-1_21_pkp-s1
 
 **ชื่อโครงงาน (ไทย):**  เว็บไซต์รับเลี้ยงสุนัขจรจัด
@@ -91,6 +88,9 @@ STAYDOG-PROJECT/<br/>
 # วิธีการติดตั้งโปรแกรมและวิธีการใช้งานโปรแกรม
 
 **ต้องมี Git	สำหรับโคลนโปรเจกต์จาก GitHub** 
+```
+https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-67-1_21_pkp-s1.git
+```
 1. โคลนโปรเจกต์จาก GitHub
 ```
 git clone https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-67-1_21_pkp-s1.git
