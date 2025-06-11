@@ -98,10 +98,15 @@ cd staydog-project
 ```
 2. ติดตั้ง dependencies ที่จำเป็น
 `npm install`
-
+**สร้าง Database ใหม่ใน pgAdmin**
+1. เปิด pgAdmin แล้ว
+2. Connect ไปยัง local server
+3. คลิกขวา > Create > Database
+4. ตั้งชื่อเหมือนที่โปรเจกต์ใช้ เช่น staydog
 **ตั้งค่า .env ไฟล์สำหรับฐานข้อมูล** 
 1. สร้างไฟล์ .env ใน root directory
 2. ใส่ค่าเชื่อมต่อฐานข้อมูล PostgreSQL แบบนี้:
+- หลัง git clone แล้ว ต้องตรวจสอบไฟล์ .env หรือสร้างใหม่ให้ตรงกับ Database ที่ตั้งไว้
 ```
  DATABASE_URL="postgresql://postgres:mypassword@localhost:5432/postgres?schema=public"
  NEXTAUTH_SECRET="B4rsJTUbv5TUmIKCE/TnJa6pP1JyuMp+3bwqwmavIm5bbnoHEX27Tj5lcMs="
@@ -110,7 +115,10 @@ cd staydog-project
 ```
 npx prisma generate
 npx prisma migrate dev --name init
+npx prisma db seed
 ```
+
 **เริ่มรันโปรเจกต์** 
 1. รันคำสั่ง `npm run dev`
 2. แล้วเปิดเว็บเบราว์เซอร์ที่: http://localhost:3000
+3. สามารถดู database ผ่าน prisma ได้โดยใช้คำสั่ง `npm prisma studio`
