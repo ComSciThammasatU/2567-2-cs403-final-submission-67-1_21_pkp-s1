@@ -69,19 +69,22 @@ STAYDOG-PROJECT/<br/>
 ├── tailwind.config.js # Tailwind config<br/>
 ├── next.config.j# ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมทํางานได้<br/>
 # ชุดโปรแกรมที่จําเป็นต้องติดตั้งเพื่อให้โปรแกรมผทํางานได้
-1. Node.js
+1.vscode
+-ใช้ในการเปิดโปรแกรม
+-ดาวน์โหลดจาก https://code.visualstudio.com/download
+2. Node.js
 - ใช้รัน Next.js และติดตั้งแพ็กเกจ npm
 - เวอร์ชันแนะนำ ≥ 18.x
 - ดาวน์โหลดจาก https://nodejs.org
-2. npm
+3. npm
 - ตัวจัดการแพ็กเกจ JavaScript
 - เวอร์ชันแนะนำ ≥ 9.x   
 - มาพร้อมกับ Node.js
-3. PostgreSQL
+4. PostgreSQL
 - ใช้เป็นฐานข้อมูลของระบบ
 - เวอร์ชันแนะนำ ≥ 14.x 
 - ดาวน์โหลดจาก https://www.postgresql.org 
-4. seed
+5. seed
 - seed script สำหรับใส่ข้อมูลเริ่มต้น
 - ใช้คำสั่ง `npx prisma db seed`
   
@@ -90,7 +93,7 @@ STAYDOG-PROJECT/<br/>
 **ต้องมี Git	สำหรับโคลนโปรเจกต์จาก GitHub** 
 1. โคลนโปรเจกต์จาก GitHub
 ```
-git clone https://github.com/yourusername/staydog-project.git
+git clone https://github.com/ComSciThammasatU/2567-2-cs403-final-submission-67-1_21_pkp-s1.git
 cd staydog-project
 ```
 2. ติดตั้ง dependencies ที่จำเป็น
