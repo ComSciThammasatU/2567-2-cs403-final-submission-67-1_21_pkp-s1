@@ -1,0 +1,15 @@
+		Thesis Title	STRAY DOG ADOPTION WEB APPLICATION
+		Author		MR. KONGPOB TREENETPAIBOON
+		Degree		Bachelor of Science 
+Major Field/Faculty/University	Computer Science
+				Faculty of Science and Technology
+				Thammasat University
+		Project Advisor Ajarn Dr.Pakkaporn Saopha
+		Academic Years	2024
+
+ 				ABSTRACT
+	Thailand is currently facing an escalating issue with stray dogs, the number of which is continuously increasing. This problem arises from various causes, such as dogs being abandoned by owners who can no longer care for them, lack of population control for stray dogs, and illegal breeding and selling of dogs.
+
+	Although many animal shelters strive to find homes for stray dogs and provide care, the growing number of stray dogs has exceeded the capacity of shelters to provide adequate care. This issue is further exacerbated by the lack of effective channels for shelters to publicize adoption opportunities. Additionally, the information about dogs available for adoption is often incomplete, making potential adopters hesitant to proceed. Moreover, the belief that the adoption process is complicated and cumbersome further impedes efforts to find homes for stray dogs.
+
+	Recognizing these challenges, this project aims to develop an application that serves as a platform connecting individuals interested in adopting dogs with animal shelters. This platform will make the adoption process more convenient and secure by providing comprehensive information about each dog. Additionally, it will include an assessment tool to help potential adopters evaluate their suitability before committing to adoption.
