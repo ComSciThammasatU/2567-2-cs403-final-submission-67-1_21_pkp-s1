@@ -73,17 +73,10 @@ STAYDOG-PROJECT/<br/>
 - ใช้รัน Next.js และติดตั้งแพ็กเกจ npm
 - เวอร์ชันแนะนำ ≥ 18.x
 - ดาวน์โหลดจาก https://nodejs.org
-3. npm
-- ตัวจัดการแพ็กเกจ JavaScript
-- เวอร์ชันแนะนำ ≥ 9.x   
-- มาพร้อมกับ Node.js
-4. PostgreSQL
+3. PostgreSQL
 - ใช้เป็นฐานข้อมูลของระบบ
 - เวอร์ชันแนะนำ ≥ 14.x 
 - ดาวน์โหลดจาก https://www.postgresql.org 
-5. seed
-- seed script สำหรับใส่ข้อมูลเริ่มต้น
-- ใช้คำสั่ง `npx prisma db seed`
   
 # วิธีการติดตั้งโปรแกรมและวิธีการใช้งานโปรแกรม
 
